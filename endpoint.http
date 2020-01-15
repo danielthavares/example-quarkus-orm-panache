@@ -1,0 +1,12 @@
+GET http://localhost:8080/carro HTTP/1.1
+###
+
+POST http://localhost:8080/carro HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Ford Fiesta",
+    "modelo": "2013",
+    "cor": "Cinza"
+}
+###
